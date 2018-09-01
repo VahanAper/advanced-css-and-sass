@@ -86,4 +86,9 @@
         box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
         transform: translateY(-.1rem);
     }
+
+    &--arrow::after {
+        content: '\00a0\2192';
+        display: inline-block;
+    }
 }
